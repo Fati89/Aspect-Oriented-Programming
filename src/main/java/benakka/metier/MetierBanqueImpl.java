@@ -21,7 +21,7 @@ public class MetierBanqueImpl implements IMetierBanque {
     @Override
     public void retirer(Long code, double mantant) {
         Compte compte = compteMap.get(code);
-        compte.setSolde(compte.getSolde()+mantant);
+        compte.setSolde(compte.getSolde()-mantant);
     }
 
     @Override

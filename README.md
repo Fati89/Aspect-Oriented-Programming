@@ -15,3 +15,6 @@
 ![img_5.png](img_5.png)
 #### logging dans un fichier xml
 ![img_6.png](img_6.png)
+
+### Aspect Patch
+![img_7.png](img_7.png)
