@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-14T05:21:10.072411600Z</date>
+  <millis>1794633670072</millis>
+  <nanos>411600</nanos>
+  <sequence>0</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>avant</method>
+  <thread>3</thread>
+  <message>-------------------------------------------------</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:10.080774500Z</date>
+  <millis>1794633670080</millis>
+  <nanos>774500</nanos>
+  <sequence>1</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>avant</method>
+  <thread>3</thread>
+  <message>Avant l'exécution de la méthode void benakka.metier.MetierBanqueImpl.addCompte(Compte)</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:10.081772600Z</date>
+  <millis>1794633670081</millis>
+  <nanos>772600</nanos>
+  <sequence>2</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>Après l'exécution de la méthode void benakka.metier.MetierBanqueImpl.addCompte(Compte)</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:10.081772600Z</date>
+  <millis>1794633670081</millis>
+  <nanos>772600</nanos>
+  <sequence>3</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>Durée d'exécution de la méthode 9</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:10.081772600Z</date>
+  <millis>1794633670081</millis>
+  <nanos>772600</nanos>
+  <sequence>4</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>-------------------------------------------------</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.909599Z</date>
+  <millis>1794633676909</millis>
+  <nanos>599000</nanos>
+  <sequence>5</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>avant</method>
+  <thread>3</thread>
+  <message>-------------------------------------------------</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.911761600Z</date>
+  <millis>1794633676911</millis>
+  <nanos>761600</nanos>
+  <sequence>6</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>avant</method>
+  <thread>3</thread>
+  <message>Avant l'exécution de la méthode void benakka.metier.MetierBanqueImpl.verser(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.911761600Z</date>
+  <millis>1794633676911</millis>
+  <nanos>761600</nanos>
+  <sequence>7</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>Après l'exécution de la méthode void benakka.metier.MetierBanqueImpl.verser(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.912761800Z</date>
+  <millis>1794633676912</millis>
+  <nanos>761800</nanos>
+  <sequence>8</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>Durée d'exécution de la méthode 3</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.912761800Z</date>
+  <millis>1794633676912</millis>
+  <nanos>761800</nanos>
+  <sequence>9</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>-------------------------------------------------</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.912761800Z</date>
+  <millis>1794633676912</millis>
+  <nanos>761800</nanos>
+  <sequence>10</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>avant</method>
+  <thread>3</thread>
+  <message>-------------------------------------------------</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.912761800Z</date>
+  <millis>1794633676912</millis>
+  <nanos>761800</nanos>
+  <sequence>11</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>avant</method>
+  <thread>3</thread>
+  <message>Avant l'exécution de la méthode Compte benakka.metier.MetierBanqueImpl.consulter(Long)</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.913759400Z</date>
+  <millis>1794633676913</millis>
+  <nanos>759400</nanos>
+  <sequence>12</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>Après l'exécution de la méthode Compte benakka.metier.MetierBanqueImpl.consulter(Long)</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.913759400Z</date>
+  <millis>1794633676913</millis>
+  <nanos>759400</nanos>
+  <sequence>13</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>Durée d'exécution de la méthode 1</message>
+</record>
+<record>
+  <date>2026-11-14T05:21:16.913759400Z</date>
+  <millis>1794633676913</millis>
+  <nanos>759400</nanos>
+  <sequence>14</sequence>
+  <logger>benakka.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>benakka.aspects.LoggingAspect</class>
+  <method>apres</method>
+  <thread>3</thread>
+  <message>-------------------------------------------------</message>
+</record>
+</log>
