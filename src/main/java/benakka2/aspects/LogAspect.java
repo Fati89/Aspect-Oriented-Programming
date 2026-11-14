@@ -22,7 +22,7 @@ public class LogAspect {
     // Un PointCut nommé est utile quand la même expression est utilisée plusieurs fois, pour eviter la répitition de "execution(public void process())" et faciliter la tache si on veut modifier
 
     Logger logger=Logger.getLogger(LogAspect.class.getName());
-    @Around("execution(* benakka2.service..*(..))") // OU BEIN: ("execution(public void process())")
+    @Around("@annotation(benakka2.aspects.Log)")// on cible tout ce qui a cette annontation Log     // ("execution(* benakka2.service..*(..))") // OU BEIN: ("execution(public void process())")
     public Object log(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         long t1=System.currentTimeMillis();
         logger.info("From Logging Aspects ... Before "+proceedingJoinPoint.getSignature());
