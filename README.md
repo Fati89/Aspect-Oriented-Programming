@@ -18,3 +18,7 @@
 
 ### Aspect Patch
 ![img_7.png](img_7.png)
+
+### Aspect Securité
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)
