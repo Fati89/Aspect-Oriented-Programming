@@ -2,7 +2,7 @@ package benakka.aspects;
 
 public aspect FirstAspect {
 
-    pointcut pc1():execution(* benakka.test.Application.main(..));
+    pointcut pc1():execution(* benakka.test.Application.mai(..));
 
 //    before():pc1(){
 //        System.out.println("-------------------------------------------");

@@ -1,25 +1,35 @@
 package benakka.aspects;
 
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 
 @Aspect
 public class SecondAspect {
-    @Pointcut("execution(* benakka.test.Application.main(..))")
+    @Pointcut("execution(* benakka.test.Application.mai(..))")
     public void pc1(){}
 
-    @Before("pc1()")
-    public void beforeMain(){
+//    @Before("pc1()")
+//    public void beforeMain(){
+//        System.out.println("*******************************************");
+//        System.out.println("Before main from Aspect with Class syntax");
+//        System.out.println("*******************************************");
+//    }
+//    @After("pc1()")
+//    public void afterMain(){
+//        System.out.println("*******************************************");
+//        System.out.println("After main from Aspect with Class syntax");
+//        System.out.println("*******************************************");
+//    }
+
+    @Around("pc1()")
+    public void aroundMain(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println("*******************************************");
-        System.out.println("Before main from Aspect with AspectJ syntax");
+        System.out.println("Before main from Aspect with Class syntax");
+        System.out.println("*******************************************");
+        proceedingJoinPoint.proceed();
+        System.out.println("*******************************************");
+        System.out.println("After main from Aspect with Class syntax");
         System.out.println("*******************************************");
     }
-    @After("pc1()")
-    public void afterMain(){
-        System.out.println("*******************************************");
-        System.out.println("After main from Aspect with AspectJ syntax");
-        System.out.println("*******************************************");
-    }
+
 }
